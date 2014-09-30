@@ -6,14 +6,14 @@
         id        = "au.com.commonroom.app"
         version   = "1.0.2">
 
-    <name>Common Room</name>
+    <name>G-Force Web Technologies</name>
 
     <description>
-        Your personalised university noticeboard.
+        A Perth based digital marketing agency specialising in unified solutions for growing businesses
     </description>
 
-    <author href="http://commonroom.com.au" email="support@commonroom.com.au">
-        Common Room Team
+    <author href="http://g-force.net" email="support@g-force.net">
+        G-Force Web Technologies
     </author>
 
     <preference name="phonegap-version" value="3.3.0" />
@@ -34,11 +34,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
-	<gap:plugin name="nl.x-services.plugins.socialsharing" />
-	<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
-		<param name="APP_ID" value="506213766155238" />
-		<param name="APP_NAME" value="d2542abac949cbce732f09a9d2cbac2c" />
-	</gap:plugin>
+
 
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
@@ -69,7 +65,7 @@
 
     <icon src="icon.png" />
 
-    <content src="http://app.commonroom.com.au/?appp=1" />
+    <content src="http://g-force.net/?appp=1" />
     <access origin="*" subdomains="true" />
 
 </widget>
